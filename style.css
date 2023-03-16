@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+h1{
+    font-weight: normal;
+}
+
+.tabla{
+    height: 30%;
+    width: 60%;
+    border-collapse: collapse;
+    text-align: center
+}
+
+th{
+    border: solid 1px black;
+    background-color: rgba(144,193,194,255);
+}
+
+td{
+    border: dashed 1px black;
+}
+
+tr:hover{
+    background-color: rgba(144,238,144,255);
+}
